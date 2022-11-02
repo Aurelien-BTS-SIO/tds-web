@@ -10,16 +10,15 @@
     width: 160px;
     margin-top: 30px;
     margin-left: 37px;
-    background-color: #2f3b34;
+    background-color: blanchedalmond;
     text-align: center;
-    color: blanchedalmond;
+    color: black;
     font-size: 1.5rem;
     font-family: Arial, Helvetica, sans-serif;
 }
 .menu a:hover{
     background-color: blanchedalmond;
-    color: #2f3b34;
-    border-color: black;
+    border-color: blanchedalmond;
     transition: all 0.5s;
 }
 
@@ -29,8 +28,17 @@
 }
 
 #mySidenav:hover{
-    background-color:blanchedalmond ;
+    background-color: black;
 }
+.contact a {
+  text-decoration: none;
+  color: blanchedalmond;
+  margin-top: 160%;
+  margin-left: 25%;
+  font-size: 2rem;
+  
+  }
+
 
 
 
@@ -45,16 +53,16 @@
     z-index: 1;
     top: 0;
     left: 0px;
-    background-color: #2f363b;
+    background-color: blanchedalmond;
     padding-top: 20px;
     transition: left 0.4s ease;
     border-right: solid 3px black;
     transition: all 0.5s;
 }
 .sidenav a:hover{
-    background-color: blanchedalmond;
-    color: #2f3b34;
-}
+    background-color: black;
+    color: blanchedalmond;
+   }
 .sidenav ul {
     list-style-type: none;
     padding: 0;
@@ -74,14 +82,14 @@
     display: block;
     width: 30px;
     height: 3px;
-    background-color: #2f363b;
+    background-color: black;
     margin: 6px 0;
   }
 
 
 .material-symbols-outlined {
     position:fixed;
-    color: #2f363b;
+    color: blanchedalmond;
     top: 10px;
     left: 220px;
     font-variation-settings:
