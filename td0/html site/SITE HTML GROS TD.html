@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>
+            SITE HTML GROS TD
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+        <div class="hover-bg">
+            <a id="closeBtn" href="#" class="close">
+                <span id="toClose" class="material-symbols-outlined">
+                    close
+                    </span>
+            </a>
+        </div>
+
+        <ul class="menu">
+            <a href="/accueil">Accueil</a>
+            <a href="/a propos">À propos</a>
+            <a href="/competences">Compétences</a>
+            <a href="/experiences">Expériences</a>
+            <a href="/formations">Formations</a>
+            <a href="/contact">Contact</a>
+        </ul>
+        </div>
+    <a href="#" id="openBtn">
+    <span class="burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+    </a>
+
+    </a>
+    </body>
+
+    <script>
+
+        const button = document.getElementById('toClose')
+
+    console.log(button)
+        let btnClose = false;
+        
+        button.addEventListener("click", close);
+
+        function close() {
+            document.getElementById("mySidenav").style.display = "none";
+        }
+
+
+
+    </script>
+</html>
