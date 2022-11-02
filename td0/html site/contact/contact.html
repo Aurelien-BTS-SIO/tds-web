@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <div class="hover-bg">
+            <a id="closeBtn" href="#" class="close">
+                <span id="toClose" class="material-symbols-outlined">
+                    close
+                    </span>
+            </a>
+        </div>
+
+        <ul class="menu">
+            <a href="accueil/accueil.html">Accueil</a>
+            <a href="a propos/a propos.html">À propos</a>
+            <a href="competences/competences.html">Compétences</a>
+            <a href="experiences/experiences.html">Expériences</a>
+            <a href="formations/formations.html">Formations</a>
+            <a href="contact/contact.html">Contact</a>
+        </ul>
+        <ul class="contact">
+            <a href="contact/contact.html" class="fa-solid fa-envelope"></a>
+            <a href="https://www.linkedin.com/in/aurélien-de-mil" target="_blank" class="fa-brands fa-linkedin" id="linkedin"></a>
+        </ul>
+        </div>
+    <a href="#" id="openBtn">
+    <span class="burger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </span>
+    </a>
+
+    </a>
+    </body>
+    <script src="https://kit.fontawesome.com/036b405b27.js" crossorigin="anonymous"></script>
+    <script>
+
+        const button = document.getElementById('toClose')
+
+    console.log(button)
+        let btnClose = false;
+        
+        button.addEventListener("click", close);
+
+        function close() {
+            document.getElementById("mySidenav").style.display = "none";
+        }
+    </script>
+    
+  </body>
+  </html>
