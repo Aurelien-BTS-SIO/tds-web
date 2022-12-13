@@ -39,13 +39,6 @@
   
   }
 
-
-
-
-
-
-
-
 .sidenav{
     height: 100%;
     width: 250px;
@@ -59,9 +52,10 @@
     border-right: solid 3px black;
     transition: all 0.5s;
 }
-.sidenav a:hover{
+.sidenav .menu_item:hover{
     background-color: black;
     color: blanchedalmond;
+    transform: scale(1.1);
    }
 .sidenav ul {
     list-style-type: none;
@@ -100,4 +94,21 @@
   }
 .material-symbols-outlined:hover{
     color: red;
+    top: 10px;
+    left: 220px;
+}
+
+.image_menu {
+  width: 40px;
+  background-color: blanchedalmond;
+  color: black;
+  padding: 0.2em;
+  border-radius: 25%;
+  margin-top: 25rem;
+  transition: 0.2s;
+}
+
+.image_menu:hover {
+  transition: 0.2s;
+  transform: scale(1.1);
 }
