@@ -42,7 +42,6 @@
     padding-top: 20px;
     transition: left 0.4s ease;
     border-right: solid 3px black;
-    transition: all 0.5s;
 }
 .sidenav .menu_item:hover{
     background-color: black;
