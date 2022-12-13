@@ -9,7 +9,7 @@
         <a href="contact.php" class="menu_item">Contact</a>
     </ul>
     <ul class="contact">
-        <div class="btn_contact"><a href="contact/contact.html"><img src="img/Env.png" alt="" class="image_menu"></img></a></div>
+        <div class="btn_contact"><a href="contact.php"><img src="img/Env.png" alt="" class="image_menu"></img></a></div>
         <div class="btn_contact"><a href="https://www.linkedin.com/in/aurélien-de-mil" id="linkedin"><img src="img/Link.png" alt="" class="image_menu"></a></div>
     </ul>
         <div class="hover-bg">
