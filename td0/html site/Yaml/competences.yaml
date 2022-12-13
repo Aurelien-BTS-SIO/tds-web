@@ -1,0 +1,21 @@
+Développement:
+  - nom : Html
+    niveau : 90
+  - nom : Css
+    niveau : 65
+  - nom : Php
+    niveau : 60
+  - nom : Yaml
+    niveau : 100
+Bureautique:
+  - nom : Word
+    niveau : 60
+  - nom : Excel
+    niveau : 30
+  - nom : Powerpoint
+    niveau : 90
+Langues:
+  - nom : Français
+    niveau : 85
+  - nom : Anglais
+    niveau : 75
