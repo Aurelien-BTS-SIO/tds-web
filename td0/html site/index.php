@@ -8,7 +8,7 @@
 </h1>
 <br>
 <h1>
-    Bienvenue sur le portfolio d'Aurélien De Mil étudiant en bts SIO 1.
+    Bienvenue sur le site de présentation professionnel d'Aurélien De Mil étudiant en bts SIO 1.
 </h1>
 
 <?php include "pages_utiles/footer.php"?>

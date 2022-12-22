@@ -8,6 +8,8 @@
         <title>
         SITE HTML GROS TD
         </title>
+        <link rel="stylesheet" href="Style\formations.css">
+        <link rel="stylesheet" href="Style\experiences.css">
         <link rel="stylesheet" href="Style\Menu.css">
         <link rel="stylesheet" href="Style\screen.css">
         <link rel="stylesheet" href="Style\Competences.css">
