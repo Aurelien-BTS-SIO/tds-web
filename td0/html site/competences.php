@@ -4,7 +4,7 @@
 
 <div id="box_competences">
     <?php 
-        $donnee=yaml_parse_file("Yaml\competences.yaml");
+        $donnee=yaml_parse_file("Yaml/competences.yaml");
         foreach ($donnee as $titre => $tbCompetences) {
             echo "<h1>" . $titre . "</h1>";
             foreach ($tbCompetences as $competence) { ?>
